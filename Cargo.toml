@@ -1,5 +1,5 @@
 [package]
-name = "sse-backend"
+name = "ssebackend"
 version = "0.1.0"
 authors = ["aarrascue <aarrascue@neuroloop.de>"]
 description = "Rust-based SSE back-end"
@@ -19,5 +19,5 @@ name = "sse"
 path = "src/lib.rs"
 
 [[bin]]
-name = "sse-backend"
+name = "ssebackend"
 path = "src/main.rs"
