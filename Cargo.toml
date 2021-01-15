@@ -10,7 +10,6 @@ repository = "https://github.com/arrascue/rust-sse-backend.git"
 
 [dependencies]
 tokio = {version = "0.2.0", features = ["full"] }
-tokio-native-tls = "0.1.0"
 warp = "0.2.5"
 futures = "0.3.8" 
 rand = "0.8.2"
