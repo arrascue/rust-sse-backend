@@ -2,8 +2,23 @@
 name = "sse-backend"
 version = "0.1.0"
 authors = ["aarrascue <aarrascue@neuroloop.de>"]
+description = "Rust-based SSE back-end"
 edition = "2018"
+repository = "https://github.com/arrascue/rust-sse-backend.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tokio = {version = "0.2.0", features = ["full"] }
+tokio-native-tls = "0.1.0"
+warp = "0.2.5"
+futures = "0.3.8" 
+rand = "0.8.2"
+
+[lib]
+name = "sse"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sse-backend"
+path = "src/main.rs"
