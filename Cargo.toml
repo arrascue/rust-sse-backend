@@ -1,0 +1,9 @@
+[package]
+name = "sse-backend"
+version = "0.1.0"
+authors = ["aarrascue <aarrascue@neuroloop.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
