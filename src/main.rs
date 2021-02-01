@@ -14,7 +14,7 @@ async fn main()
     loop {
     	let ran_value = rng.gen_range(0..101);
     	let _charger_state = controller.send(ran_value.to_string());
-    	println!{"RELEASE 3 - Battery percentage: {}", ran_value}
+    	println!{"RELEASE 4 - Battery percentage: {}", ran_value}
     	delay_for(Duration::from_secs(MESSAGE_SENDING_TIMEOUT_SECONDS.into())).await;
     }
 }
